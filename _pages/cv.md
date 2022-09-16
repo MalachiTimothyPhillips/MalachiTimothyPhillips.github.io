@@ -11,30 +11,47 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Computer Science, University of Illinois at Urbana-Champaign, 2023 (expected)
+* B.S. in Chemical Engineering, University of Oklahoma, 2018
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Aug 2018 - Present: Graduate Researcher, Dr. Paul Fischer
+	* Develop nekRS, an integral contribution to the Center of Efficient Exascale Discretizations Project
+	* Prepare nekRS for Frontier
+	* Optimize GPU kernels through OCCA
+	* Speedup code performance by a factor of 3
+  * Implement several features: novel matrix-free pressure Poisson preconditioners, ALE, AVM, ...
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May 2016 - Present: Software Developer
+	* Port large finite element method multiphysics simulation code to utilize GPUs through Kokkos
+	* Integrate new solver techniques, such as GCRODR, into code base
+	* Develop GPU kernel fusion through objected-oriented node fusion in expression graph
   
+* Aug 2015 - May 2016: Undergraduate Researcher
+	* Perform numerical simulations on transitional and fully-turbulent fluid flow
+	* Experience writing/debugging F77 code for DNS/Lagrangian scalar tracking
+
+* June 2014 - May 2016: Undergraduate Researcher
+	* Design computational experiments to probe stability of aymloid fibrils
+	* Experience running simulations in popular programs such as GROMACS and AMBER
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages
+  * C++
+  * Python
+  * FORTRAN
+* Programming Models
+  * OCCA
+  * Kokkos
+  * MPI
+  * CUDA
+  * HIP
+  * OpenMP
+* Tools
+  * LaTeX
+  * Git
 
 Publications
 ======
@@ -56,4 +73,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* President, SIAM Student Chapter at UIUC 2020-2023
