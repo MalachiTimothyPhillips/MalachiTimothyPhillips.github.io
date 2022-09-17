@@ -2,7 +2,7 @@
 title: "pplacerDC: a new scalable phylogenetic placement method"
 collection: publications
 permalink: /publication/pplacer-dc
-date: 2021-09-25
+date: 2021-08-01
 venue: 'Proceedings of the 12th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics'
 paperurl: 'https://dl.acm.org/doi/abs/10.1145/3459930.3469516'
 ---
