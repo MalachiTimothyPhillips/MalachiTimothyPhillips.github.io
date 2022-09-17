@@ -14,3 +14,5 @@ These preconditioner techniques are now the default solvers utilized in nekRS,
 an open-source high-order CFD solver targeting GPUs.
 
 [Presentation Slides](https://MalachiTimothyPhillips.github.io/files/siam-cse-21-phillips.pdf)
+
+[nekRS Paper with solver details](https://arxiv.org/abs/2104.05829)
