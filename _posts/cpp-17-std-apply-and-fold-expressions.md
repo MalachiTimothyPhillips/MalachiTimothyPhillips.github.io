@@ -1,6 +1,6 @@
 ---
 title: 'C++17 Features: `std::apply` and fold expressions'
-date: 2022-09-17
+date: 2022-09-16
 permalink: /posts/2022/09/cpp-17-std-apply-and-fold-expressions/
 tags:
   - C++
