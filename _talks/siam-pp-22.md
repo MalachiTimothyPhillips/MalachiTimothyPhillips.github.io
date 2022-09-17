@@ -5,13 +5,13 @@ collection: talks
 type: "Talk"
 permalink: /talks/siam-pp-22
 venue: "SIAM PP 2022"
-date: 2021-04-01
+date: 2021-02-24
 location: "Virtual"
 ---
 
-Present novel $p$-MG preconditioner built on Chebyshev-accelerated additive Schwarz
-and restrictive additive Schwarz smoothers.
-These preconditioner techniques are now the default solvers utilized in nekRS,
-an open-source high-order CFD solver targeting GPUs.
+Compare strong/weak scalability of various $p$-multigrid preconditioners
+and low-order operator preconditioning.
+A nascent tuning strategy is proposed to help alleviate the
+difficulty of choosing a reasonable preconditioner for a given problem.
 
-[Presentation Slides](https://MalachiTimothyPhillips.github.io/files/siam-cse-21-phillips.pdf)
+[Presentation Slides](https://MalachiTimothyPhillips.github.io/files/siam-pp-22-phillips.pdf)
