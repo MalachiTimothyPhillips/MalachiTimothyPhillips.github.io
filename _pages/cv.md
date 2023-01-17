@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+[MalachiPhillipsCV.pdf](https://MalachiTimothyPhillips.github.io/files/MalachiPhillipsCV.pdf)
+
 {% include base_path %}
 
 Education
