@@ -1,22 +1,24 @@
 ---
-title: "Highly Optimized Full-Core Reactor Simulations on Summit"
+title: "Optimization of full-core reactor simulations on summit"
 collection: publications
 permalink: /publication/highly-optimized-full-core
-date: 2021-10-01
-venue: 'arXiv'
-paperurl: 'https://arxiv.org/abs/2110.01716'
+date: 2022-11-13
+venue: 'SC22: International Conference for High Performance Computing, Networking, Storage and Analysis (SC)'
+paperurl: 'https://www.computer.org/csdl/proceedings-article/sc/2022/544400b067/1I0bTb79CdW'
 ---
 
 This paper presents nekRS full-core reactor simulations on all of Summit.
 
-[Link to paper](https://arxiv.org/abs/2110.01716)
+[Link to paper](https://www.computer.org/csdl/proceedings-article/sc/2022/544400b067/1I0bTb79CdW)
 
 bibtex entry:
 ```
-@article{fischer2021highly,
-  title={Highly Optimized Full-Core Reactor Simulations on Summit},
-  author={Fischer, Paul and Merzari, Elia and Min, Misun and Kerkemeier, Stefan and Lan, Yu-Hsiang and Phillips, Malachi and Rathnayake, Thilina and Novak, April and Gaston, Derek and Chalmers, Noel and others},
-  journal={arXiv preprint arXiv:2110.01716},
-  year={2021}
+@inproceedings{min2022optimization,
+  title={Optimization of full-core reactor simulations on summit},
+  author={Min, Misun and Lan, Yu-Hsiang and Fischer, Paul and Merzari, Elia and Kerkemeier, Stefan and Phillips, Malachi and Rathnayake, Thilina and Novak, April and Gaston, Derek and Chalmers, Noel and others},
+  booktitle={2022 SC22: International Conference for High Performance Computing, Networking, Storage and Analysis (SC)},
+  pages={1067--1077},
+  year={2022},
+  organization={IEEE Computer Society}
 }
 ```

@@ -1,8 +1,10 @@
-@article{fischer2021nekrs,
-  title={NekRS, a GPU-Accelerated Spectral Element Navier-Stokes Solver},
+@article{fischer2022nekrs,
+  title={NekRS, a GPU-accelerated spectral element Navier--Stokes solver},
   author={Fischer, Paul and Kerkemeier, Stefan and Min, Misun and Lan, Yu-Hsiang and Phillips, Malachi and Rathnayake, Thilina and Merzari, Elia and Tomboulides, Ananias and Karakus, Ali and Chalmers, Noel and others},
-  journal={arXiv preprint arXiv:2104.05829},
-  year={2021}
+  journal={Parallel Computing},
+  pages={102982},
+  year={2022},
+  publisher={Elsevier}
 }
 
 @article{phillips2022optimal,
@@ -31,12 +33,15 @@
   publisher={Elsevier}
 }
 
-@article{fischer2021highly,
-  title={Highly Optimized Full-Core Reactor Simulations on Summit},
-  author={Fischer, Paul and Merzari, Elia and Min, Misun and Kerkemeier, Stefan and Lan, Yu-Hsiang and Phillips, Malachi and Rathnayake, Thilina and Novak, April and Gaston, Derek and Chalmers, Noel and others},
-  journal={arXiv preprint arXiv:2110.01716},
-  year={2021}
+@inproceedings{min2022optimization,
+  title={Optimization of full-core reactor simulations on summit},
+  author={Min, Misun and Lan, Yu-Hsiang and Fischer, Paul and Merzari, Elia and Kerkemeier, Stefan and Phillips, Malachi and Rathnayake, Thilina and Novak, April and Gaston, Derek and Chalmers, Noel and others},
+  booktitle={2022 SC22: International Conference for High Performance Computing, Networking, Storage and Analysis (SC)},
+  pages={1067--1077},
+  year={2022},
+  organization={IEEE Computer Society}
 }
+
 @inproceedings{koning2021ppiacerdc,
   title={ppIacerDC: a new scalable phylogenetic placement method},
   author={Koning, Elizabeth and Phillips, Malachi and Warnow, Tandy},
@@ -46,17 +51,204 @@
 }
 
 # ecp reports
-@article{kolev2022ecp,
-  title={ECP Milestone Report High-order algorithmic developments and optimizations for more robust exascale applications WBS 2.2. 6.06, Milestone CEED-MS38},
-  author={Kolev, Tzanio and Fischer, Paul and Abdelfattah, Ahmad and Beams, Natalie and Brown, Jed and Camier, Jean-Sylvain and Carson, Robert and Chalmers, Noel and Dobrev, Veselin and Dudouit, Yohann and others},
-  year={2022}
+# MS 40
+@misc{kolev_tzanio_2023_7820316,
+  author       = {Kolev, Tzanio and
+                  Fischer, Paul and
+                  Abdelfattah, Ahmad and
+                  Atkins, Zachary and
+                  Bankole, Adeleke and
+                  Beams, Natalie and
+                  Brown, Jed and
+                  Camier, Jean-Sylvain and
+                  Carson, Robert and
+                  Chalmers, Noel and
+                  Dobrev, Veselin and
+                  Holmen, John and
+                  Jansen, Kenneth E and
+                  Kerkemeier, Stefan and
+                  Lan, Yu-Hsiang and
+                  McDougall, Damon and
+                  Merzari, Elia and
+                  Min, Misun and
+                  Phillips, Malachi and
+                  Ratnayaka, Thilina and
+                  Rowe, Kris and
+                  Shephard, Mark S. and
+                  Smith, Cameron W. and
+                  Thompson, Jeremy L. and
+                  Tomboulides, Ananias and
+                  Tomov, Stanimire and
+                  Tomov, Vladimir and
+                  Unnikrishnan, Umesh and
+                  Vargas, Arturo and
+                  Warburton, Tim and
+                  Wright III, James},
+  title        = {{CEED ECP Milestone Report: Support ECP 
+                   applications in their exascale challenge problem
+                   runs}},
+  month        = apr,
+  year         = 2023,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.7820316},
+  url          = {https://doi.org/10.5281/zenodo.7820316}
 }
 
-@techreport{kolev2021ceed,
-  title={CEED-MS37: Port and optimize the CEED software stack to Aurora/Frontier EA},
-  author={Kolev, T},
-  year={2021},
-  institution={Lawrence Livermore National Lab.(LLNL), Livermore, CA (United States)}
+# MS 39
+@misc{kolev_tzanio_2022_7202571,
+  author       = {Kolev, Tzanio and
+                  Fischer, Paul and
+                  Abdelfattah, Ahmad and
+                  Bankole, Adeleke and
+                  Beams, Natalie and
+                  Brazell, Michael and
+                  Brown, Jed and
+                  Camier, Jean-Sylvain and
+                  Chalmers, Noel and
+                  Churchfield, Matthew and
+                  Dobrev, Veselin and
+                  Dudouit, Yohann and
+                  Ghaffari, Leila and
+                  Holmen, John and
+                  Kerkemeier, Stefan and
+                  Lan, Yu-Hsiang and
+                  Lin, Yimin and
+                  McDougall, Damon and
+                  Merzari, Elia and
+                  Min, Misun and
+                  Mittal, Ketan and
+                  Pazner, Will and
+                  Phillips, Malachi and
+                  Ratnayaka, Thilina and
+                  Rowe, Kris and
+                  Shephard, Mark S. and
+                  Smith, Cameron W. and
+                  Sprague, Michael and
+                  Thompson, Jeremy L. and
+                  Tomboulides, Ananias and
+                  Tomov, Stanimire and
+                  Tomov, Vladimir and
+                  Warburton, Tim and
+                  Wright III, James},
+  title        = {{CEED ECP Milestone Report: Improve performance and 
+                   capabilities of CEED-enabled ECP applications on
+                   Frontier/Aurora EA}},
+  month        = sep,
+  year         = 2022,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.7202571},
+  url          = {https://doi.org/10.5281/zenodo.7202571}
+}
+
+# MS 38
+@misc{kolev_tzanio_2022_6514857,
+  author       = {Kolev, Tzanio and
+                  Fischer, Paul and
+                  Abdelfattah, Ahmad and
+                  Beams, Natalie and
+                  Brown, Jed and
+                  Camier, Jean-Sylvain and
+                  Carson, Robert and
+                  Chalmers, Noel and
+                  Dobrev, Veselin and
+                  Dudouit, Yohann and
+                  Ghaffari, Leila and
+                  Joshi, Aditya Y. and
+                  Kerkemeier, Stefan and
+                  Lan, Yu-Hsiang and
+                  McDougall, Damon and
+                  Medina, David and
+                  Min, Misun and
+                  Mishra, Abhishek and
+                  Pazner, Will and
+                  Phillips, Malachi and
+                  Ratnayaka, Thilina and
+                  Shephard, Mark S. and
+                  Siboni, Morteza H. and
+                  Smith, Cameron W. and
+                  Thompson, Jeremy L. and
+                  Tomboulides, Ananias and
+                  Tomov, Stanimire and
+                  Tomov, Vladimir and
+                  Warburton, Tim},
+  title        = {{CEED ECP Milestone Report: High-order algorithmic 
+                   developments and optimizations for more robust
+                   exascale applications}},
+  month        = apr,
+  year         = 2022,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.6514857},
+  url          = {https://doi.org/10.5281/zenodo.6514857}
+}
+
+# MS 37
+@misc{kolev_tzanio_2021_5542244,
+  author       = {Kolev, Tzanio and
+                  Fischer, Paul and
+                  Beams, Natalie and
+                  Brown, Jed and
+                  Camier, Jean-Sylvain and
+                  Chalmers, Noel and
+                  Dobrev, Veselin and
+                  Dudouit, Yohan and
+                  Kerkemeier, Stefan and
+                  Lan, Yu-Hsiang and
+                  Lin, Yimin and
+                  Lindquist, Neil and
+                  McDougall, Damon and
+                  Medina, David and
+                  Merzari, Elia and
+                  Min, Misun and
+                  Moe, Scott and
+                  Pazner, Will and
+                  Phillips, Malachi and
+                  Ratnayaka, Thilina and
+                  Rowe, Kris and
+                  Shephard, Mark S. and
+                  Smith, Cameron W. and
+                  Tomov, Stanimire and
+                  Warburton, Tim},
+  title        = {{CEED ECP Milestone Report: Port and optimize the 
+                   CEED software stack to Aurora / Frontier EA
+                   Systems}},
+  month        = sep,
+  year         = 2021,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.5542244},
+  url          = {https://doi.org/10.5281/zenodo.5542244}
+}
+
+# MS 35
+@misc{kolev_tzanio_2020_4146401,
+  author       = {Kolev, Tzanio and
+                  Fischer, Paul and
+                  Abdelfattah, Ahmad and
+                  Barra, Valeria and
+                  Beams, Natalie and
+                  Brown, Jed and
+                  Camier, Jean-Sylvain and
+                  Chalmers, Noel and
+                  Dobrev, Veselin and
+                  Kerkemeier, Stefan and
+                  Lan, Yu-Hsiang and
+                  Merzari, Elia and
+                  Min, Misun and
+                  Phillips, Malachi and
+                  Ratnayaka, Thilina and
+                  Rowe, Kris and
+                  Thompson, Jeremy and
+                  Tomboulides, Ananias and
+                  Tomov, Stanimire and
+                  Tomov, Vladimir and
+                  Warburton, Tim},
+  title        = {{CEED ECP Milestone Report: Support CEED-enabled 
+                   ECP applications in their preparation for
+                   Aurora/Frontier}},
+  month        = sep,
+  year         = 2020,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.4146401},
+  url          = {https://doi.org/10.5281/zenodo.4146401}
 }
 
 # old papers
