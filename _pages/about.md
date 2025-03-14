@@ -8,15 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a 5th year PhD student in CS at UIUC. I am advised by [Prof. Paul Fischer](http://fischerp.cs.illinois.edu/).
-My research interests are in matrix-free high-order Poisson preconditions,
-especially for GPU-architectures.
-I am also interested in high-order methods for fluid flow simulations.
-My main dissertation work is on things related to [nekRS](https://github.com/nek5000/nekrs), a high-order finite element solver for the Navier-Stokes equations.
-
-I am a member of the [Center for Efficient Exascale Discretizations](https://ceed.exascaleproject.org/).
-
-I am a long-term intern at Sandia National Labs since May 2016.
+I am a Postdoctoral Appointee at Sandia National Labs, a position I started in September 2023.
+My current work is focused on block-based multiphysics preconditioning strategies in [Trilinos](https://github.com/trilinos/).
 The work I've done there is primarily focused on porting a large,
 expression graph based finite element multiphysics simulation software to
 utilize GPUs, SIERRA/Aria [user manual](https://www.osti.gov/servlets/purl/1615880).
+
+I obtained my PhD in CS at UIUC in August 2023 and was advised by [Prof. Paul Fischer](http://fischerp.cs.illinois.edu/).
+My research interests are in matrix-free high-order Poisson preconditions,
+especially for GPU-architectures, and high-order methods for fluid flow simulations.
+My main dissertation work is on things related to [nekRS](https://github.com/nek5000/nekrs), a high-order finite element solver for the Navier-Stokes equations.
