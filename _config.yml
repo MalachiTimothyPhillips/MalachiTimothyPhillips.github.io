@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Malachi Phillips"
 title_separator          : "-"
 name                     : &name "Malachi Phillips"
-description              : &description "PhD student @ UIUC"
+description              : &description "Postdoc @ SNL, PhD @ UIUC"
 url                      : https://malachitimothyphillips.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MalachiTimothyPhillips.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Malachi Phillips"
   avatar           : "me.jpeg"
-  bio              : "PhD in CS@UIUC"
-  location         : "Champaign, IL"
+  bio              : "Postdoc @ SNL, PhD in CS@UIUC"
+  location         : "Norman, OK"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=3WB1qqAAAAAJ&hl=en&oi=ao"
