@@ -10,7 +10,8 @@ redirect_from:
 
 I am a Postdoctoral Appointee at Sandia National Labs, a position I started in September 2023.
 My current work is focused on block-based multiphysics preconditioning strategies in [Trilinos](https://github.com/trilinos/).
-The work I've done there is primarily focused on porting a large,
+Prior to completing my PhD, I interned at Sandia National Labs starting May 2016.
+During that time, my work has been primarily focused on porting a large,
 expression graph based finite element multiphysics simulation software to
 utilize GPUs, SIERRA/Aria [user manual](https://www.osti.gov/servlets/purl/1615880).
 
